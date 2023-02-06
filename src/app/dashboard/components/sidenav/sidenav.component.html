@@ -1,0 +1,65 @@
+<div class="position-sticky sidebar-sticky pt-3">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/dashboard/page-one">
+            <i class="fas fa-tachometer-alt me-1"></i>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/dashboard/page-two">
+            <i class="fas fa-car me-1"></i>
+            Orders
+          </a>
+        </li>
+        <li class="nav-item">
+          <!-- d-inline-flex align-items-center -->
+            <button class="btn btn-toggle  rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+              <i class="fas fa-chevron-right me-1"></i>
+              Home
+            </button>
+            <div class="collapse" id="home-collapse" style="">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a routerLink="/dashboard/page-one" routerLinkActive="sub-active" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                <li><a routerLink="/dashboard/page-two" routerLinkActive="sub-active" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
+                <li><a routerLink="/dashboard/page-two" routerLinkActive="sub-active" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+    <!-- <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+            <a routerLink="/dashboard/page-one" routerLinkActive="active" class="nav-link">
+                <i class="fas fa-tachometer-alt me-2"></i>Dashboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/dashboard/page-two" routerLinkActive="active" class="nav-link">
+                <i class="fas fa-tachometer-alt me-2"></i>Page Two
+            </a>
+        </li>
+        <li class="nav-item">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+              Home
+            </button>
+            <div class="collapse" id="home-collapse" style="">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
+                <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
+              </ul>
+            </div>
+          </li>
+    </ul> -->
+    <hr>
+    <div class="dropdown mb-2">
+        <a href="#" class="nav-link text-truncate text-decoration-none dropdown-toggle padding-dropdown" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-user me-2"></i> jkjkasjksajksajksjakjsjask@asasasasa.com
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li>
+                <button class="dropdown-item">Logout</button>
+            </li>
+        </ul>
+    </div>     
+</div>
