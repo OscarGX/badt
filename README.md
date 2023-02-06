@@ -1,6 +1,21 @@
-# BtpAdminTemplate
+# First of all
+
+Run `npm i` to install node modules
+
+# Bootstrap Angular Admin Template
+
+This is a dashboard template made with Angular and Bootstrap v5
+It contains the basic Angular structure to start a new project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+
+# Branches
+There are two different branches to start the project
+- **Main branch:**
+    - Dashboard routing and pages (server errors, page-one, page-two as example).
+- **Auth Branch:**
+    - Dashboard module, routing and pages (server errors, page-one, page-two as example).
+    - Auth module, routing and pages (register, forgot password, login).
 
 ## Development server
 
@@ -14,14 +29,5 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Example
+![Bootstrap Angular Example](src/assets/dashboard-example.png "Bootstrap Angular Example")
