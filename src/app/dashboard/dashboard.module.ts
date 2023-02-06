@@ -6,6 +6,9 @@ import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DForbiddenComponent } from './pages/d-forbidden/d-forbidden.component';
+import { DNotFoundComponent } from './pages/d-not-found/d-not-found.component';
+import { DInternalServerComponent } from './pages/d-internal-server/d-internal-server.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { FooterComponent } from './components/footer/footer.component';
     MainLayoutComponent,
     HeaderComponent,
     SidenavComponent,
-    FooterComponent
+    FooterComponent,
+    DForbiddenComponent,
+    DNotFoundComponent,
+    DInternalServerComponent
   ],
   imports: [
     CommonModule,
